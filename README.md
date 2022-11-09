@@ -3,10 +3,10 @@ This is a branch predictor project which uses 4 types of algorithms: Bimodal, G-
 
 To run each specific algorithm, you will need to input this cmds in your terminal:
 
--s stands for the amount of PC bits used for indexing
--bp stands for and int number between 0 and 3 denoting the predictor you want to utilize
--gh stands for the global history size
--lh stands for the local history size
+-s stands for the amount of PC bits used for indexing<br/>
+-bp stands for and int number between 0 and 3 denoting the predictor you want to utilize<br/>
+-gh stands for the global history size<br/>
+-lh stands for the local history size<br/>
 
 ### **Bimodal**: 
 python branch_predictor.py --bp 0 -s 8
