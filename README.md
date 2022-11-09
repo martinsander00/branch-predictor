@@ -20,6 +20,8 @@ python branch_predictor.py --bp 1 -s 12 --gh 6
 ### **Torneo**: 
 python branch_predictor.py --bp 3 -s 
 
+<br/>
+<br/>
 
 Note: The file that you want to process has to have the following syntax (T stands for "taken" and N for "not taken"). 
 The first number stands for the PC direction of the instruction that will take (or not) the branch.
