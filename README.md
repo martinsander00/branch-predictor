@@ -8,19 +8,19 @@ To run each specific algorithm, you will need to input this cmds in your termina
 -gh stands for the global history size
 -lh stands for the local history size
 
-## **Bimodal**: 
+### **Bimodal**: 
 python branch_predictor.py --bp 0 -s 8
 
-## **P-Shared**: 
+### **P-Shared**: 
 python branch_predictor.py --bp 2 -s 8 --lh 12
 
-## **G-Shared**: 
+### **G-Shared**: 
 python branch_predictor.py --bp 1 -s 12 --gh 6
 
-## **Torneo**: 
+### **Torneo**: 
 python branch_predictor.py --bp 3 -s 
 
-Note: The file that you want to process has to have the following syntax (T stands for "taken" and N for "not taken"). 
+#####Note: The file that you want to process has to have the following syntax (T stands for "taken" and N for "not taken"). 
 The first number stands for the PC direction of the instruction that will take (or not) the branch.
 
 3086629576 T<br/>
