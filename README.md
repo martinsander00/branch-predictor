@@ -23,7 +23,7 @@ python branch_predictor.py --bp 3 -s
 Note: The file that you want to process has to have the following syntax (T stands for "taken" and N for "not taken"). 
 The first number stands for the PC direction of the instruction that will take (or not) the branch.
 
-3086629576 T
-3086629604 T
-3086629599 N
-3086629604 T
+3086629576 T<br/>
+3086629604 T<br/>
+3086629599 N<br/>
+3086629604 T<br/>
