@@ -1,0 +1,13 @@
+Para correr los 4 codigos se deben correr las siguientes instrucciones 
+
+Para el Bimodal: 
+python branch_predictor.py --bp 0 -s 8
+
+Para el p-shared: 
+python branch_predictor.py --bp 2 -s 8 --lh 12
+
+Para el g-shared: 
+python branch_predictor.py --bp 1 -s 12 --gh 6
+
+Para el torneo: 
+python branch_predictor.py --bp 3 -s 
